@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: rgb(159, 122, 234);
+  background: linear-gradient(
+    115deg,
+    rgba(159, 122, 234, 1) 47%,
+    rgba(254, 226, 254, 1) 89%
+  );
+}
+
+.welcome-container{
+  background-image: url("./public/img/1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-position: center;
+}
